@@ -2,7 +2,7 @@ E-Commerce Data Modeling Project
 
 
 
-a)Project Overview
+a) Project Overview
 
 
 
@@ -10,7 +10,7 @@ This project focuses on designing a normalized relational database schema for an
 
 
 
-b)The project includes:
+b) The project includes:
 
 
 
@@ -36,9 +36,7 @@ b)The project includes:
 
 
 
-
-
-d)System Workflow (Business Perspective)
+c) System Workflow (Business Perspective)
 
 
 
@@ -64,7 +62,7 @@ This workflow determines the entities and relationships required in the database
 
 
 
-e)Core Entities Identified
+d) Core Entities Identified
 
 
 
