@@ -86,14 +86,11 @@ The platform follows a typical e-commerce workflow:
 ```
 ecommerce-data-mode/
 │── README.md
-│── erd/
-│   └── ecommerce_erd.png
-│── schema/
-│   └── schema.sql
-│── docs/
-│   ├── conceptual_model.md
-│   ├── logical_model.md
-│   └── relationships.md
+│── Cardinality and Conceptual Model
+│── ER_Diagram_Ecommerce
+│── ER_Diagram_Schema
+│── SQL_Script_Ecommerce
+
 ```
 
 ---
