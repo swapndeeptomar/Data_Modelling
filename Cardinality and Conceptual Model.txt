@@ -7,14 +7,14 @@ Accurate business logic representation
 
 Relationship Summary Table
 
-Relationship	        Type	     Cardinality     Description
-Customers → Addresses	One-to-Many	1:N	     A customer can have multiple addresses
-Customers → Orders	One-to-Many	1:N	     A customer can place multiple orders
-Orders → Order_Items	One-to-Many	1:N	     An order contains multiple products
-Products → Order_Items	One-to-Many	1:N	     A product can be part of many orders
-Categories → Products	One-to-Many	1:N	     A category contains multiple products
-Products → Inventory	One-to-One	1:1	     Each product has one inventory record
-Orders → Payments	One-to-One	1:1	     Each order has one payment
+Relationship	           Type	      Cardinality   Description
+Customers → Addresses	  One-to-Many	1:N	        A customer can have multiple addresses
+Customers → Orders	     One-to-Many	1:N	        A customer can place multiple orders
+Orders → Order_Items	     One-to-Many	1:N	        An order contains multiple products
+Products → Order_Items	  One-to-Many	1:N	        A product can be part of many orders
+Categories → Products	  One-to-Many	1:N	        A category contains multiple products
+Products → Inventory	     One-to-One	1:1	        Each product has one inventory record
+Orders → Payments	        One-to-One	1:1	        Each order has one payment
 
 Integrity Constraints
 
