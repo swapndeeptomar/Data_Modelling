@@ -1,92 +1,96 @@
-E-Commerce Data Modeling Project
+# E-Commerce Data Modeling Project
 
+## Project Overview
 
+This project focuses on designing a normalized relational database schema for an E-Commerce platform.
 
-a) Project Overview
+The objective is to build a scalable and structured data model that supports core business operations such as:
 
+* Customer management
+* Product catalog management
+* Order processing
+* Payment handling
+* Inventory tracking
 
+---
 
-This project focuses on designing a normalized relational database schema for an E-Commerce platform. The goal is to create a structured and scalable data model capable of supporting core e-commerce operations such as customer management, product catalog management, order processing, payments, and inventory tracking.
+## Project Scope
 
+This project includes the following key components:
 
+### 1️) Business Requirement Analysis
 
-b) The project includes:
+* Understanding real-world e-commerce workflows
+* Identifying required data entities and relationships
 
+### 2️) Data Modeling
 
+* Conceptual Data Model
+* Logical Data Model
 
-1)Business requirement analysis
+### 3️) Entity Relationship Diagram (ERD)
 
+* Visual representation of entities and relationships
 
+### 4️) Normalized Database Schema
 
-2)Conceptual and logical data modeling
+* Applying normalization (up to 3NF)
+* Eliminating redundancy and ensuring data integrity
 
+### 5️) SQL Implementation
 
+* SQL scripts for table creation
+* Constraints (Primary Key, Foreign Key, etc.)
 
-3)Entity Relationship Diagram (ERD)
+---
 
+## System Workflow (Business Perspective)
 
+The platform follows a typical e-commerce workflow:
 
-4)Normalized database schema
+1. Customer registers on the platform
+2. Customer browses products under various categories
+3. Customer places an order with multiple products
+4. System stores order items linked to the order
+5. Customer completes payment
+6. System updates inventory accordingly
 
+---
 
+## Core Entities
 
-5)SQL table creation scripts
+| Entity      | Description                           |
+| ----------- | ------------------------------------- |
+| Customers   | Stores customer information           |
+| Addresses   | Stores shipping and billing addresses |
+| Categories  | Defines product categories            |
+| Products    | Stores product details                |
+| Inventory   | Manages product stock levels          |
+| Orders      | Stores order information              |
+| Order_Items | Stores products within each order     |
+| Payments    | Stores payment transaction details    |
 
+---
 
+## Database Design Highlights
 
+* Fully **normalized schema (up to 3NF)**
+* Proper use of **Primary Keys & Foreign Keys**
+* Supports **one-to-many and many-to-many relationships**
+* Designed for **scalability and real-world use cases**
 
+---
 
-c) System Workflow (Business Perspective)
+## Project Structure
 
+```
+ecommerce-data-mode/
+│── README.md
+│── Cardinality and Conceptual Model
+│── ER_Diagram_Ecommerce
+│── ER_Diagram_Schema
+│── SQL_Script_Ecommerce
 
+```
 
-An E-commerce platform typically follows the workflow below:
-
-
-
-1\) The customer registers on the platform.
-
-2\) The customer browses products categorized under different product categories.
-
-3\) The customer places an order containing multiple products.
-
-4\) The system stores order items associated with that order.
-
-5\) The customer makes a payment for the order.
-
-6\) The system updates inventory levels accordingly.
-
-
-
-This workflow determines the entities and relationships required in the database schema.
-
-
-
-d) Core Entities Identified
-
-
-
-Based on the workflow, the following entities are required:
-
-
-
-Entity	        Description
-
-
-
-Customers	Stores customer information
-
-Addresses	Stores customer shipping/billing addresses
-
-Categories	Product categories
-
-Products	Product catalog
-
-Inventory	Product stock management
-
-Orders	        Order details
-
-Order\_Items	Products included in orders
-
-Payments	Payment transactions
-
+---
